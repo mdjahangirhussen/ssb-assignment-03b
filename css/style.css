@@ -10,7 +10,7 @@ img {
 }
 a{
     text-decoration: none;
-    transition: all .5s ease-in-out;
+    transition: all .3s ease;
 }
 hr{
     max-width: 50px;
@@ -103,8 +103,13 @@ hr{
 }
 .menu ul li:last-child:hover{
     border: 2px solid #fb2056;
+	transition:all .3s ease;
     
 }
+.menu ul li:last-child:hover a{
+    color: #fb2056a6;
+    
+ } 
 .header-content{
     text-align: center;
     padding: 120px 0 220px;
